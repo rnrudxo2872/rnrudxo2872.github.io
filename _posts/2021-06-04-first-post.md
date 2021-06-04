@@ -1,10 +1,10 @@
 ---
 date: 2021-06-04
-title: "블로그 첫번째 글"
-categories:blog
-tags:jekyll
-toc:true
-toc_sticky:true
+title: "First"
+categories:
+  - blog
+tags:
+  - Start
 ---
 
 {{page.title}}
