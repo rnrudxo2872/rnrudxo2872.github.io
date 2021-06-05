@@ -1,6 +1,6 @@
 ---
 date: 2021-06-05
-title: "NoSQL"
+title: "Stateful, Stateless란"
 categories:
   - 개인공부
 tags:
