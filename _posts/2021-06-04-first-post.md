@@ -1,6 +1,6 @@
 ---
 date: 2021-06-04
-title: "First"
+title: "생애 첫 블로그 글"
 categories:
   - blog
 tags:
