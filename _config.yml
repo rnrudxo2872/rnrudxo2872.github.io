@@ -21,7 +21,7 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "KG"
 description: "My precious blog."
-url: "https://rnrudxo2872.github.io/"
+url: "https://rnrudxo2872.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "rnrudxo2872/rnrudxo2872.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
