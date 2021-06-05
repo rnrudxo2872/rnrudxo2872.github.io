@@ -31,21 +31,21 @@ MongoDB와 자바스크립트간, 연결 해주는 매개체라고 할 수 있�
 
 작업 중인 nodejs 프로젝트에 mongoose를 설치해준다
 
-```{.bash}
+```bash
 npm i mongoose
 ```
 
 그 후, Mongoose와 MongoDB의 서버를 연결 해준다.
 
-```{.javascript}
+```javascript
 import mongoose from "mongoose";
 
 mongoose.connect("mongodb://[서버주소]/[디비명]", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex:true
-})
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify: false,
+  useCreateIndex: true,
+});
 ```
 
 ##### p.s DB에 입력하는 query를 질의어라고도 한다.
