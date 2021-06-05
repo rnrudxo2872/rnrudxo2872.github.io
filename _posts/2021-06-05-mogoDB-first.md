@@ -19,7 +19,7 @@ Document-Oriented(문서지향)적인 데이터 베이스이므로, MySQL이나 
 
 RDBMS와는 달리 Schema나 JOIN이 존재하지 않다.
 데이터 구조는 key-value 형식이다.
-![SQLvsNoSQL](https://rnrudxo2872.github.io/images/sql_vs_nosql.png)
+![SQLvsNoSQL](https://rnrudxo2872.github.io/assets/images/sql_vs_nosql.png)
 
 # Mongoose
 
