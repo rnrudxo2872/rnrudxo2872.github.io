@@ -12,7 +12,7 @@ tags:
 # MongoDB란?
 
 데이터 베이스이며, NoSQL(Not Only SQL) 형태이다.
-<sup><sub>[NoSQL이란?](https://rnrudxo2872.github.io/nosql)</sub></sup>
+<sup><sub>[NoSQL이란?](https://rnrudxo2872.github.io/개인공부/nosql/)</sub></sup>
 
 Document-Oriented(문서지향)적인 데이터 베이스이므로, MySQL이나 Oracle같은 기반으로 작성되는 RDBMS(Relational Database Management System) 데이터 베이스와 비교할 수 있다.
 
