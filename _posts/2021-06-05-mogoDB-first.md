@@ -7,6 +7,8 @@ tags:
   - Nodejs
   - express
   - mongoDB
+  - DB
+  - NoSQL
 ---
 
 # MongoDB란?
