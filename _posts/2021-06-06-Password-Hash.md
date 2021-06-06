@@ -19,7 +19,8 @@ tags:
 # 평문(plain text)? 다이제스트(digest)?
 
 평문(plain text)은 Client단에서 입력한 문자열 그대로를 의미한다. digest(hash value 또는 hash text)는 평문, 즉 Client가 입력한 Password를 Hash Function을 거쳐 나온 문자열 혹은 값을 의미한다.
-![HashFunction](https://rnrudxo2872.github.io/assets/images/hash_Function.png)
+![HashFunction](https://rnrudxo2872.github.io/assets/images/hash_Function.png)  
+<sup><sub>출처: [https://www.thesslstore.com/blog/difference-encryption-hashing-salting/](https://www.thesslstore.com/blog/difference-encryption-hashing-salting/)</sub></sup>
 
 ## Hash Function의 종류
 
