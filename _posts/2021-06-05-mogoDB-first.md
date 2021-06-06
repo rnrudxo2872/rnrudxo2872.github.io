@@ -4,6 +4,7 @@ title: "mongoDB 시작하기"
 categories:
   - 개인공부
 tags:
+  - web
   - Nodejs
   - express
   - mongoDB
