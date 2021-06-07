@@ -27,7 +27,4 @@ tags:
 - Android Studio설치
 - 안드로이드 개발에 기본 언어로 Java언어를 사용하기 위해 JDK(java Development Kit)설치한다. <sub>android studio 2.2 버전부터는 Open JDK가 내장되어 별도 설치가 필요없다.</sub>  
 - 안드로이드 SDK가 별도의 폴더에 존재해야 한다.  
-SDK에는 모든 안드로이드 버전의 개발 API가 들어 있지 않기에, 인터넷에서 API설치를 추가적으로 해야한다.
-- - -
-### 결과 출력
-가상 안드로이 장치 AVD(Android Virtual Device)설치
+SDK에는 모든 안드로이드 버전의 개발 API가 들어 있지 않기에, 인터넷에서 API설치를 추가적으로 해야한다.  
