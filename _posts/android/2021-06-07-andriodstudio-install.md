@@ -9,16 +9,16 @@ tags:
 
 # 안드로이드 스튜디오 설치
 현재 기준 4.2.1 버전을 설치하였다. [설치](https://developer.android.com/studio)
-![developver_page](https://rnrudxo2872.github.io/assets/images/android/android_studio_install.png)
+![developver_page](https://rnrudxo2872.github.io/assets/images/android/android_studio_install.png)  
 
 설치과정의 모든 부분은 default값으로 진행하였다.
 
-![verify_settings](https://rnrudxo2872.github.io/assets/images/android/verify_settings.png)
+![verify_settings](https://rnrudxo2872.github.io/assets/images/android/verify_settings.png)  
 위와 같은 setting으로 설치를 하였다.
 
 - 설치가 완료된 후, android SDK 버전을 확장 설치한다.
-![config](https://rnrudxo2872.github.io/assets/images/android/config.png)
-![version_extend](https://rnrudxo2872.github.io/assets/images/android/version_extend.png)
+![config](https://rnrudxo2872.github.io/assets/images/android/config.png)  
+![version_extend](https://rnrudxo2872.github.io/assets/images/android/version_extend.png)  
 위 이미지에는 없으나 5.1(lollipop)과 4.4(KitKat)버전을 추가로 설치하였다.
 
 - - -
