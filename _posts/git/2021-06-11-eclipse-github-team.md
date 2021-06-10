@@ -41,5 +41,5 @@ git을 검색한 후, Project from Git을 선택한다.
 어떤 branch를 선택하고 시작할 것인지 묻는 화면이다. 우선 master로 선택하고, 후에 분업을 위해 branch를 만드는 작업을 할 것이다.  
 후에 다른 설치 과정은 Next로 진행해준다.
 
-![eclips_github](https://rnrudxo2872.github.io/assets/images/github/github_eclipse_6.png)  
+![eclips_github](https://rnrudxo2872.github.io/assets/images/github/github_eclipse_7.png)  
 모든 과정을 완료하면, 위와같이 원격 저장소의 파일들을 eclipse에 불러온 것을 볼 수 있다.
