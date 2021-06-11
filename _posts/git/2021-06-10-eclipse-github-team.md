@@ -1,5 +1,5 @@
 ---
-date: 2021-06-11
+date: 2021-06-10
 title: "eclipse와 github 연동 및 팀 프로젝트 진행"
 categories:
   - Git
