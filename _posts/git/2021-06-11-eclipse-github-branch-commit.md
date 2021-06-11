@@ -44,12 +44,9 @@ Staged Changes로 옮겨준 후, Commit 메세지를 입력, **원격 저장소�
 ![branch-commit](https://rnrudxo2872.github.io/assets/images/github/eclipse/branch_commit_push_8.png)  
 그 후, 과정은 위와 같이 Next와 Finish로 마무리 한다.  
 ![branch-commit](https://rnrudxo2872.github.io/assets/images/github/eclipse/branch_commit_push_9.png)  
-github에 정상적으로 올라간다면 위와 같은 화면이 나올 것이다.  
+github에 정상적으로 올라간다면 위와 같은 화면이 나올 것이다.    
 ![branch-commit](https://rnrudxo2872.github.io/assets/images/github/eclipse/branch_commit_push_10.png)  
 저장소에 정상적으로 commit, push 된다면 해당 프로젝트에 브런치가 생성되어 있을 것이다.  
 ![branch-commit](https://rnrudxo2872.github.io/assets/images/github/eclipse/branch_commit_push_11.png)  
 해당 작업이 정상적으로 본인의 branch에 올라간 것을 볼 수 있다.
-
----
-
-#
+ 
