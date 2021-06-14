@@ -1,6 +1,6 @@
 ---
 date: 2021-06-13
-title: "nodejs로 jwt 로그인 구현"
+title: "Webpack 이란"
 categories:
   - 개인공부
 tags:
