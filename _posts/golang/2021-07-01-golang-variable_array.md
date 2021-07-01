@@ -3,9 +3,11 @@ date: 2021-07-01
 title: "[Go] 변수 선언 및 배열"
 categories:
   - Go
+  - 문법
 tags:
   - Go
-  - Go Project
+  - 언어
+  - 문법
 ---
 
 ## 변수 선언
