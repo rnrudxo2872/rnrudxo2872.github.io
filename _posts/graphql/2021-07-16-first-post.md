@@ -17,7 +17,7 @@ GraphQL은 페이스북에서 만든 쿼리기반의 언어이다. 한번 접해
 
 ## 왜 사용할까?
 
-REST API에서 발생하는 over-fetching, under-fetching을 방지할 수 있으며, 쿼리문이 직관적이라 가독성도 좋다. 거기다 특정 DB, 플랫폼에 종속적이지 않으므로 여러모로 매력이 큰 친구다.
+REST API에서 발생하는 over-fetching, under-fetching을 방지할 수 있으며, 하나의 endpoint를 갖는다. 쿼리문이 직관적이라 가독성도 좋다. 거기다 특정 DB, 플랫폼에 종속적이지 않으므로 여러모로 매력이 큰 친구다.
 ![rest_vs_graphql](https://rnrudxo2872.github.io/assets/images/graphql/rest_api_vs_graphql_api.png)
 <sub>출처:https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/</sub>
 <br>
