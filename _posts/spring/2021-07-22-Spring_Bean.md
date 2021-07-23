@@ -51,6 +51,6 @@ public class BeanTest3{
 - singleton
 - prototype
 - web
-- - request
-- - session
-- - application
+  - request
+  - session
+  - application
