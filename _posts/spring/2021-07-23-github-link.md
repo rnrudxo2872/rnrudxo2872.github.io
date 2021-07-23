@@ -38,7 +38,7 @@ Git Repository탭에서 등록해야하는데, 아래와 같이 진행한다.
 이후 생성된 repository에서 Import Project를 클릭하여 다음과 같이 진행한다.
 <br>
 
-![import_project_archive](https://rnrudxo2872.github.io/assets/images/spring/git-pro/click_import_project.png)  
+![click_import_project](https://rnrudxo2872.github.io/assets/images/spring/git-pro/click_import_project.png)  
 ![import_project_archive](https://rnrudxo2872.github.io/assets/images/spring/git-pro/import_project_archive.png)
 <br>
 
