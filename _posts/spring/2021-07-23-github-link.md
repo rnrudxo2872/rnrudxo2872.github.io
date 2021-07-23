@@ -34,7 +34,23 @@ Git Repository탭에서 등록해야하는데, 아래와 같이 진행한다.
 ![click_clone_repo](https://rnrudxo2872.github.io/assets/images/spring/git-pro/click_clone_git_repo.png)  
 ![clone_repo](https://rnrudxo2872.github.io/assets/images/spring/git-pro/clone_git_repo.png)
 <br>
-뒤에 2가지 정도 설정창이 더 나오는데 기본값으로 진행하면 된다.
+뒤에 2가지 정도 설정창이 더 나오는데 기본값으로 진행하면 된다.  
+이후 생성된 repository에서 Import Project를 클릭하여 다음과 같이 진행한다.
 <br>
 
-![clone_repo](https://rnrudxo2872.github.io/assets/images/spring/git-pro/click_repo_import_pro.png)
+![import_project_archive](https://rnrudxo2872.github.io/assets/images/spring/git-pro/import_project_archive.png)
+<br>
+
+이제 Package Explorer탭에 가본다면 원격 프로젝트를 볼 수 있을 것이다.  
+여기서, 본인 프로젝트는 <code>.gitignore</code>에 .settings 파일을 제외 시켰으므로 프로젝트의 <code>Deployment Assembly</code>를 등록해줘야한다.  
+아래와 같이 과정을 진행한다.
+
+![set_project_properties](https://rnrudxo2872.github.io/assets/images/spring/git-pro/project_click_properties.png)
+
+![no_exists](https://rnrudxo2872.github.io/assets/images/spring/git-pro/not_exists_deploy_assembly.png)  
+위와 같이 컴포넌트가 없다고 한다. **project facets**탭으로 가도록 하자.
+<br>
+<br>
+
+![set_project_facets](https://rnrudxo2872.github.io/assets/images/spring/git-pro/set_project_facets.png)  
+톰캣 8.5를 사용하고 있다면 Dynamic Web Module을 **2.5**버전 Java는 **1.8**버전을 하니 잘 구동 되었다.
