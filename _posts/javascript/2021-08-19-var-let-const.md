@@ -20,6 +20,13 @@ var는 자바스크립트에 변수를 선언하게 해주는 예약어이다. E
 ## var, let 차이
 
 우선 const는 성질이 조금 다르니, 제외하고 var와 let의 차이점을 알아보겠다. 둘의 차이를 제대로 볼 수 있는 것으로 <code>영역(scope)</code>의 차이와 <code>호이스팅(hoisting)</code>동작 차이다.
+
+### 영역
+
+var는 <code>함수 영역(function-scoped)</code>를 가지며, let과 const는 <code>블록 영역(block-scoped)</code>를 가진다.
+
+### 호이스팅
+
 호이스팅은 선언을 코드상 하단에 위치하는데, 상대적으로 상단에서 그 변수를 사용해도 가능하도록 하는 것이다. 즉 영역 내부 어디에서든 변수 선언은 최상위에 선언된 것처럼 행동하는 것이다.
 
 ```javascript
@@ -34,7 +41,7 @@ hi = "Hi!";
 ```
 
 즉, 위의 첫번째 코드는 두번째와 같이 동작한다.  
-let은 위와 같이 작성한다면 <b>ReferenceError</b>가 발생한다. 이는 TDZ(Temporal Dead Zone)때문에 초기화 되기전에 액세스할 때 에러를 발생시키기 때문이다.
+let은 위와 같이 작성한다면 <b>ReferenceError</b>가 발생한다. 이는 <code>TDZ(Temporal Dead Zone)</code>때문에 초기화 되기전에 액세스할 때 에러를 발생시키기 때문이다. TDZ는 코드를 예측가능하게 하고 잠재적인 버그를 줄일 수 있다는 장점이 있다.
 
 ---
 
