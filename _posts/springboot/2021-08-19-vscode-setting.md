@@ -13,11 +13,15 @@ tags:
 <br>
 vscode를 애용했던 만큼, 이클립스 기반 STS는 나에게 너무 답답했다. legacy 버전은 vscode로 이용하기 힘들었던 만큼, 이제 spring boot는 vscode로 사용하고자 한다.
 
+---
+
 ## 확장 설치
 
 ![extentions](https://rnrudxo2872.github.io/assets/images/springboot/spring_boot_vscode_setting.png)  
 <br>
 위와 같이 많은 확장들을 설치했다. 찾아보니 개인마다 차이가 있었으나, 처음인 만큼 만반의 준비(?)를 하기위해 이렇게 구성했다.
+
+---
 
 ## JDK 설정
 
@@ -26,6 +30,8 @@ window를 사용한다면 <code>ctrl + shift + p</code>, mac 사용자라면 <co
 ![settings_view](https://rnrudxo2872.github.io/assets/images/springboot/settings_view.png)  
 <br>
 위와 같이 최상단에 표시된 json 파일을 열고, 마지막에 <code>"java.home": "본인이 설치한 jdk 경로",</code>를 입력하면 끝이다.
+
+---
 
 ## Spring Boot 프로젝트 만들기
 
