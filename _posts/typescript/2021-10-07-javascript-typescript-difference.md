@@ -1,3 +1,15 @@
+---
+date: 2021-10-07
+title: "javascript vs typescript"
+categories:
+  - 개인공부
+  - Typescript
+tags:
+  - 객체지향
+  - javascript
+  - typescript
+---
+
 typescript는 javascript 기반의 언어이며,
 javascript는 클라이언트 측 스크립트 언어이고,
 typescript는 객체 지향 컴파일 언어이다. 하지만 일반 컴파일 언어(C, C++...) 같은 언어의 컴파일 과정과는 다르기에(기계어로 바꾸는 컴파일러들과는 달리 javascript로 변환시키기에), <code>transpile</code>이라는 용어를 사용한다. 또는 meta programming이라고 한다.
