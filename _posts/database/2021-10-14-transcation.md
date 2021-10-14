@@ -100,7 +100,7 @@ MOVIE 테이블에 UPDATE문이 발생하면 해당 movie_id_check라는 이벤�
     <br>
    2PL 프로토콜은 상승 단계와 하강 단계가 섞이면 안된다는 것을 의미한다.  
     ![2PL](https://rnrudxo2872.github.io/assets/images/database/2pl_protocol.png)  
-    <sub>출처: https://victorydntmd.tistory.com/129</sub>
+    <sub>출처: https://victorydntmd.tistory.com/129</sub><br>
    하지만, 해당 프로토콜에도 데드락은 일어난다. 이를 해결하는 방법은, 해당 트랜잭션이 발생할 때, 필요한 잠금을 동시에 설정하면 해결할 수 있다. 그 외의 방법에는 교착상태 회피 방법, 탐지 방법이 있다고 한다.  
    <br>
    <br>
