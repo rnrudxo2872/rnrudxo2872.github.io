@@ -9,7 +9,7 @@ tags:
   - ES6
 ---
 
-![js_logo]((https://rnrudxo2872.github.io/assets/images/javascript/js_logo.png)
+![js_logo](https://rnrudxo2872.github.io/assets/images/javascript/js_logo.png)
 
 ## var, let, const
 
