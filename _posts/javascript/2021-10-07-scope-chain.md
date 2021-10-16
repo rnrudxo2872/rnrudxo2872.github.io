@@ -10,6 +10,8 @@ tags:
   - scope-chain
 ---
 
+![js_logo](https://rnrudxo2872.github.io/assets/images/javascript/js_logo.png)
+
 ## 스코프 체인(scope-chain)이란?
 
 - 내부 함수에서는 외부 함수의 데이터(변수, 객체)에 접근할 수 있다. 하지만, 반대로 외부 함수에서는 내부 함수에 접근할 수가 없다.  
