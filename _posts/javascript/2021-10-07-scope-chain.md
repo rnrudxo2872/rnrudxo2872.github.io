@@ -1,6 +1,6 @@
 ---
 date: 2021-10-07
-title: "var와 let,const 차이는?"
+title: "스코프 체인이란"
 categories:
   - 개인공부
   - javascript
