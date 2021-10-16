@@ -19,7 +19,22 @@ var는 자바스크립트에 변수를 선언하게 해주는 예약어이다. E
 
 ## var, let 차이
 
-우선 const는 성질이 조금 다르니, 제외하고 var와 let의 차이점을 알아보겠다. 둘의 차이를 제대로 볼 수 있는 것으로 <code>영역(scope)</code>의 차이와 <code>호이스팅(hoisting)</code>동작 차이다.
+우선 const는 성질이 조금 다르니, 제외하고 var와 let의 차이점을 알아보겠다.
+
+- <code>var</code>는 중복선언이 가능하다. 하지만 <code>let</code>은 중복선언이 불가능하다.
+- <code>var</code>는 선언전에 사용가능하다(hoisting).g 하지만 할당은 호이스팅이 되지않기에, undefined가 찍힐 것이다. <code>let</code>과 <code>const</code>은 호이스팅이 되나, TDZ 때문에 할당하기 전에는 호이스팅이 불가능하다.
+
+```js
+let age = 30;
+function showAge() {
+  console.log(age);
+  let age = 25;
+}
+```
+
+호이스팅이 되지 않았다면, 위의 코드에서 age가 30으로 정상적으로 출력이 될 것이나, let도 호이스팅이 되기에 TDZ에 의해 에러가 발생한다.
+
+둘의 차이를 제대로 볼 수 있는 것으로 <code>영역(scope)</code>의 차이와 <code>호이스팅(hoisting)</code>동작 차이다.
 
 ### 영역
 
