@@ -55,7 +55,6 @@ javascript만으로 인터렉티브한 웹 페이지를 만들 수는 있다. �
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
     const root = document.querySelector("#root")
-    const span = React.createElement("span", null, "hello");
     let count = 0;
 
     const upBtnHandler = () => {
