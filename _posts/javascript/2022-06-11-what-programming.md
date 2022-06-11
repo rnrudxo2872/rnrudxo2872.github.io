@@ -29,6 +29,8 @@ tags:
 
 # 프로그래밍 언어
 
+![programming_language](https://rnrudxo2872.github.io/assets/images/programming.png)
+
 문제 해결 능력을 바탕으로 문제 해결 방안을 컴퓨터에게 전달 하여야 합니다. 실행하는 주체는 컴퓨터인데, 기계언어를 전달받아 그것을 처리합니다.(자연어 - 사람, 기계어 - 컴퓨터)
 
 기계어를 사람이 직접 입력하는 것은 정말 어려운 작업 입니다. 복잡하고, 시간이 많이 걸리는 작업이죠. 사람이 이해하기 싶고, 명령어가 기계어보다 간결한 언어를 <code>프로그래밍 언어(programming language)</code>라고 생각하면 됩니다. 그리고 이것을 기계어로 번역하는 것을 컴파일러(compiler) 또는 인터프리터(interpreter)라고 합니다.
