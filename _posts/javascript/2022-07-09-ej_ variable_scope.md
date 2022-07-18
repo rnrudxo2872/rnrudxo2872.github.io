@@ -24,10 +24,30 @@ tags:
 
 # Item 10
 
+처음 보는 구문이 나왔습니다! <code>with</code>라는 것을 설명하고, "사용하지 마라"는 것을 알려주는 아이템이였습니다.
+
 ```js
-console.log(3 + true); // 4
-console.log("Hi" + 2); // "Hi2"
+const user = {
+  name: "koo",
+};
+with (user) {
+  console.log(name); // koo
+}
 ```
+
+<code>with</code>는 위와 같이 객체를 참조할 때, 해당 객체를 여러번 참조할 필요가 없어 코드가 간결해지는 것을 볼 수 있습니다. 하지만, 지역에 선언된 어떤 데이터가 동일한 네임을 사용한다면? 모호한 참조를 발생시킵니다.
+
+```js
+const user = {
+  name: "koo",
+};
+const name = "kim";
+with (user) {
+  console.log(name); // ?
+}
+```
+
+물론, 몇몇 개발자 분들은 "koo"라는 출력이 나온다는 것을 알 수 있다! 라고 말씀하실 수는 있습니다. 하지만, 코드는 더 명확한게 좋기에 위와 같은 코드는 좋지 않다고 할 수 있죠.
 
 # Item 11
 
