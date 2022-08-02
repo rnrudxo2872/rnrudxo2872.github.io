@@ -12,7 +12,11 @@ tags:
   - promise
 ---
 
-동시성 동작을 이해하며, 해당 동작에서 에러핸들링에 익숙해지기 위해 구문별로 <code>try...catch...finally</code> 와 동일한 동작을 하도록 구현합니다.
+javascript에서도 다른 언어들과 비슷하게 try...catch 문으로 에러핸들링이 가능합니다. 하지만 try 블럭 안에 비동기 동작이 존재하고, 해당 동작에서 에러가 발생할 때, 과연 동일하게 동작할 것인가? 라는 주제로 해당 글을 작성하려 합니다.
+
+# async...await
+
+나름 최신<code>async...await</code> 구문을 사용해서 try...catch...finally를 테스트해 봅니다.
 
 ```js
 function printStr(str) {
