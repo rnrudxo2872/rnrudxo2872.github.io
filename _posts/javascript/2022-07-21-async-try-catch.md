@@ -16,7 +16,7 @@ javascript에서도 다른 언어들과 비슷하게 try...catch 문으로 에�
 
 # async...await
 
-나름 최신<code>async...await</code> 구문을 사용해서 try...catch...finally를 테스트해 봅니다.
+나름 최신<code>async...await</code> 구문을 사용해서 try...catch...finally를 테스트 해 봅니다.
 
 ```js
 function printStr(str) {
@@ -44,6 +44,10 @@ async function asyncFunc() {
 asyncFunc();
 ```
 
+try...catch...finally 문법을 그대로 사용해서 에러핸들링이 가능합니다.
+
+그렇다면 <code>async...await</code>를 사용하지 않는다면, 비동기 동작에서 try...catch...finally가 정상적으로 동작할까요?
+
 ```js
 function printStr(str) {
   return new Promise((resolve, reject) => {
@@ -67,6 +71,13 @@ function asyncFunc() {
   }
 }
 ```
+
+catch 블럭에서 해당 에러핸들링이 안되어 Uncaught Error가 출력됩니다.
+
+# Promise
+
+위에서 언급한 것과 같이, 단순하게 try...catch...finally를 사용하면 제대로된 동작이 안되는 것을 확인할 수 있는데요.  
+해당 문제는 Promise의 메서드로 해결할 수 있습니다.
 
 ```js
 function printStr(str) {
