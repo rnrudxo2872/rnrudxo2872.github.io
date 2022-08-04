@@ -104,6 +104,11 @@ function asyncFunc() {
 asyncFunc();
 ```
 
+# callback
+
+최근에 사용되는 <code>async...await</code>, <code>Promise</code>를 사용하지 않고, callback으로 비동기 에러핸들링을 간단하게 구현해 보았습니다.  
+비동기 트리거로는 queueMicrotask를 사용했습니다.(setTimeout을 사용해도 됩니다.)
+
 ```js
 function asyncGenerator(callback, predicate, onSuccess, onFailure) {
   queueMicrotask(() => {
