@@ -1,6 +1,6 @@
 ---
 date: 2022-07-21
-title: 비동기 동작에서의 에러핸들링(try...catch)
+title: 비동기 에러핸들링(JS)
 categories:
   - 개인공부
   - javascript
