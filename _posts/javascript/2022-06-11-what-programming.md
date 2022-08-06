@@ -31,7 +31,7 @@ tags:
 
 # 프로그래밍 언어
 
-![programming_language](https://rnrudxo2872.github.io/assets/images/programming.png)
+![programming_language](https://rnrudxo2872.github.io/assets/images/programming.jpg)
 
 문제 해결 능력을 바탕으로 문제 해결 방안을 컴퓨터에게 전달 하여야 합니다. 실행하는 주체는 컴퓨터인데, 기계언어를 전달받아 그것을 처리합니다.(자연어 - 사람, 기계어 - 컴퓨터)
 
@@ -42,6 +42,7 @@ tags:
 ```js
 console.log("Hello");
 ```
+
 <sub>콘솔창 "Hello"라는 문자열을 로그로 출력하라는 의미의 문구</sub>
 
 개발자는 이러한 프로그래밍 언어를 활용하여, 요구사항의 집합을 분석, 적절한 자료구조와 함수의 집합으로 변환한 후, 그 흐름을 제어할 수 있어야 합니다.
