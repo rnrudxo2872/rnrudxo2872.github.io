@@ -1,6 +1,6 @@
 ---
 date: 2022-06-11
-title: 프로그래밍이이란
+title: 프로그래밍란
 categories:
   - 개인공부
   - javascript
